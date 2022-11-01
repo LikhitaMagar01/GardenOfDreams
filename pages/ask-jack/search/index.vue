@@ -5,15 +5,12 @@
                Garden of Dreams- Homepage 
             </Title>
         </Head> -->
-        this is homepage
+        this is ask
     </div>
 </template>
 
 <script setup>
-definePageMeta({
-layout: "sidebar"
-})
 useHead({
-    title: "Garden of Dreams- Homepage"
+    title: "Garden of Dreams- ask forum"
 })
 </script>

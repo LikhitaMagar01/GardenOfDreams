@@ -6,3 +6,8 @@ nuxt3 installation:
 #yarn install
 #yarn run dev
 
+prisma installation:
+yarn add prisma --save-dev
+yarn add @prisma/client
+npx prisma migrate dev
+npx prisma studio
