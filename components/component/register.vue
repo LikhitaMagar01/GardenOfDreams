@@ -1,17 +1,12 @@
 <script setup lang="ts">
 import { ref } from "@vue/reactivity";
 import { registerWithEmail } from "@/composables/useAuth";
-
 const email = ref(null);
 const password = ref(null);
 const username = ref(null);
 const name = ref(null);
-const hasError = ref(null);
-const errorMessage = ref(null);
 const errors = ref(new Map())
-
-
-const postRegisterForm = async function() {
+async function postRegisterForm() {
   await registerWithEmail(username.value, name.value, email.value, password.value);
 };
 </script>

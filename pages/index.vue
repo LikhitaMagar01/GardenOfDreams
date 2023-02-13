@@ -2,7 +2,7 @@
 import register from '@/components/component/register.vue'
 </script>
 <template>
-    <div class="container">
+    <div>
         <register />
     </div>
 </template>
