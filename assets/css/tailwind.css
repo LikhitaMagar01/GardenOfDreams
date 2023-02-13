@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* .container {
+    @apply bg-sky-200 text-sky-600 text-center p-3 rounded-lg drop-shadow-sm;
+  } */
