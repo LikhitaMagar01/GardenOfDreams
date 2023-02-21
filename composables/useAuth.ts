@@ -10,12 +10,11 @@ export async function registerWithEmail(
       method: 'POST',
       body: { username, name, email, password }
     })
-if(res){
-    useState('user').value = res
-    await navigateTo('/dashboard')
-}
-  }
-  catch(e){
+    if(res){
+        useState('user').value = res
+        await useRouter().push('/dashboard')
+    }
+  } catch(e){
     console.log('error:' + e.toString())
   }
 }

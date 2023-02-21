@@ -9,5 +9,4 @@ export interface IUser {
   email?: string
   avatarUrl?: string
   subscription?: ISubscription | null
-  stripeCustomerId?: string | null
 }
